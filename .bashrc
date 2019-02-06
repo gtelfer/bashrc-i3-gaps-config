@@ -82,15 +82,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias ls='ls --color=auto'
 fi
 
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -118,7 +114,7 @@ fi
 
 alias top=htop
 alias nano="nano -Scalgmwz"
-alias ls="ls -ANWR"
+alias ls="ls -AN"
 alias long="ls -ALNR --si"
 alias rm="rm -Irvf --preserve-root"
 alias ..="cd .."
