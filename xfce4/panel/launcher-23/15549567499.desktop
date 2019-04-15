@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=nitrogen
+Comment=Browse and set desktop backgrounds
+Exec=nitrogen
+Icon=nitrogen
+Path=
+Terminal=false
+StartupNotify=false

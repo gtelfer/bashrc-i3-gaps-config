@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rxvt Color Unicode Terminal
+Comment=Use the command line
+Exec=rxvt-unicode +sb
+Icon=utilities-x-terminal
+Path=
+Terminal=false
+StartupNotify=true

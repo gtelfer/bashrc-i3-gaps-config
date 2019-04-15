@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=pavucontrol
+Comment=
+Exec=pavucontrol
+Icon=yast-sound
+Path=
+Terminal=false
+StartupNotify=false
